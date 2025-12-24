@@ -2,7 +2,7 @@
 clear variables; clc;
 
 % 1. SETUP
-model_name = 'SST_Dynamic_Model';
+model_name = 'SST_Advanced_Model';
 if ~bdIsLoaded(model_name)
     try
         open_system(model_name);
